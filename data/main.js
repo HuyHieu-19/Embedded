@@ -40,7 +40,7 @@ function onSendRF() {
       key: 'value'
    };
 
-   fetch('/postDataRF?key="value"', {
+   fetch('/postDataRF', {
       method: 'POST',
       headers: {
          'Content-Type': 'application/json'
@@ -106,7 +106,7 @@ function onSignal() {
 
 // let intervalId; // Define a variable to store the interval ID
 // function fetchDataFromServer() {
-//    fetch('http://your-esp8266-server-url/fetchData')
+//    fetch('')
 //       .then(response => response.json())
 //       .then(data => {
 //          // Process the received data
